@@ -1,7 +1,7 @@
 
 const player1 = {
     name: 'Scorpion',
-    hp: '60%',
+    hp: 60,
     img: "fighters/scorpion.gif",
     weapon: ['121', '122'],
     attack: function () {
@@ -11,7 +11,7 @@ const player1 = {
 
 const player2 = {
     name: 'Subzero',
-    hp: '80%',
+    hp: 80,
     img: "fighters/subzero.gif",
     weapon: ['121', '122'],
     attack: function () {
