@@ -1,8 +1,8 @@
 
 const player1 = {
     name: 'Scorpion',
-    hp: 100,
-    img: "http://reactmarathon-api.herokuapp.com/assets/scorpion.gif",
+    hp: '60%',
+    img: "fighters/scorpion.gif",
     weapon: ['121', '122'],
     attack: function () {
         console.log( this.name + 'Fight...' );
@@ -10,29 +10,51 @@ const player1 = {
 }
 
 const player2 = {
-    name: 'Kitana',
-    hp: 100,
-    img: "http://reactmarathon-api.herokuapp.com/assets/kitana.gif",
+    name: 'Subzero',
+    hp: '80%',
+    img: "fighters/subzero.gif",
     weapon: ['121', '122'],
     attack: function () {
         console.log( this.name + 'Fight...' );
     }
 }
 
-function createPlayer(player, name, hp) {
+function createPlayer(player, number) {
+    const $root = document.querySelector('.root');
     const $player = document.createElement("div");
-    $player.classList.add(`player`);
+    $player.classList.add(`${number}`);
+    $root.appendChild($player)
+    console.log('###: $player', $player);
 
-    const $progressBar = document.createElement('div').classList.add('progressBar');
-    const $character = document.createElement('div').classList.add('character');
+    const $progressBar = document.createElement('div');
+    $progressBar.classList.add('progressBar');
 
-    console.log('###: C', C);
-    
+    const $life= document.createElement('div');
+    $life.classList.add('life');
+    const $name= document.createElement('div');
+    $name.classList.add('name');
+
+    const $character = document.createElement('div');
+    $character.classList.add('character')
+
+    const $img = document.createElement('img')
+
+
+    console.log($progressBar);
+    console.log($character);
+
     $player.appendChild($progressBar);
     $player.appendChild($character);
 
+    $progressBar.appendChild($life)
+    $progressBar.appendChild($name)
+    $character.appendChild($img)
+
+    $life.style.width = player.hp
+    $name.innerText = player.name
+    $img.src = player['img']
 
 }
 
-createPlayer('player1', 'SCORPION', 50);
-createPlayer('player2', 'SUB-ZERO', 80);
+createPlayer(player1, 'player1');
+createPlayer(player2, 'player2');
