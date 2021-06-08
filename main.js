@@ -10,7 +10,10 @@ const player1 = {
     weapon: ['121', '122'],
     attack: function () {
         console.log( this.name + 'Fight...' );
-    }
+    },
+    changeHP: changeHP,
+    elHP: elHP,
+    renderHP: renderHP,
 }
 
 const player2 = {
@@ -21,7 +24,10 @@ const player2 = {
     weapon: ['121', '122'],
     attack: function () {
         console.log( this.name + 'Fight...' );
-    }
+    },
+    changeHP: changeHP,
+    elHP: elHP,
+    renderHP: renderHP,
 }
 
 function createElement(tag, className) {
@@ -58,15 +64,21 @@ function createPlayer(playerObj) {
     return $player
 }
 
-function changeHP(player) {
-    const $playerLife = document.querySelector('.player'+player.player + ' .life');
-    player.hp -= getRandom(20)
+function changeHP(HP) {
+    this.hp -= getRandom(HP)
 
-    if (player.hp <= 0) {
-        player.hp = 0
+    if (this.hp <= 0) {
+        this.hp = 0
     }
+}
 
-    $playerLife.style.width = player.hp + '%';
+function elHP() {
+    return document.querySelector('.player'+this.player + ' .life');
+}
+
+function renderHP() {
+    const playerLife = this.elHP()
+    playerLife.style.width = this.hp + '%';
 }
 
 function playerWins(name) {
@@ -89,11 +101,15 @@ function getRandom(num) {
 $randomButton.addEventListener('click', function () {
     console.log('###: click Random');
 
-    changeHP(player1);
-    changeHP(player2);
+    player1.changeHP(getRandom(20));
+    player2.changeHP(getRandom(20));
+
+    player1.renderHP()
+    player2.renderHP()
 
     if (player1.hp === 0 || player2.hp === 0) {
         $randomButton.disabled = true;
+        $arenas.appendChild(createReloadButton())
     }
 
     if(player1.hp === 0 && player1.hp < player2.hp) {
@@ -106,6 +122,22 @@ $randomButton.addEventListener('click', function () {
 
 
 })
+
+function createReloadButton() {
+    const $reloadWrap = createElement('div', 'reloadWrap');
+    const $RestartButton = createElement('button', 'button');
+    $RestartButton.innerText = 'Restart';
+    $reloadWrap.appendChild($RestartButton);
+
+    $reloadWrap.addEventListener('click', function () {
+        window.location.reload()
+    })
+
+    return $reloadWrap;
+}
+
+
+
 
 $arenas.appendChild(createPlayer(player1))
 $arenas.appendChild(createPlayer(player2))
