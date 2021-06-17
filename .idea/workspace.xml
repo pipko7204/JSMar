@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6495932-83b2-439b-85b1-640ec7b2ff4e" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="f6495932-83b2-439b-85b1-640ec7b2ff4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Game/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tMI1uujIjRK83NNmBEymJoo4XS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,10 +46,42 @@
       <workItem from="1622572586239" duration="163000" />
       <workItem from="1622572783320" duration="43000" />
       <workItem from="1622573305409" duration="762000" />
+      <workItem from="1622716914221" duration="2956000" />
+      <workItem from="1622724628641" duration="1784000" />
+      <workItem from="1622727848942" duration="74000" />
+      <workItem from="1622727985707" duration="10000" />
+      <workItem from="1622728024183" duration="2711000" />
+      <workItem from="1622730801559" duration="1472000" />
+      <workItem from="1622979198032" duration="6002000" />
+      <workItem from="1623154210721" duration="2835000" />
+      <workItem from="1623324626113" duration="3242000" />
+      <workItem from="1623591062007" duration="8720000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="86" key="RollbackChangesDialog" timestamp="1623940684404">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="550" y="86" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1623940684404" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1622981415372">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1622981415372" />
   </component>
 </project>
