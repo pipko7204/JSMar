@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6495932-83b2-439b-85b1-640ec7b2ff4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AboutFight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hitInformation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/players.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
@@ -58,7 +56,6 @@
       <workItem from="1623154210721" duration="2835000" />
       <workItem from="1623324626113" duration="3242000" />
       <workItem from="1623591062007" duration="8720000" />
-      <workItem from="1623767468588" duration="4309000" />
     </task>
     <servers />
   </component>
@@ -78,44 +75,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="550" y="86" key="RollbackChangesDialog" timestamp="1623940684404">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="550" y="86" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1623940684404" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1622981415372">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1622981415372" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/main.js</url>
-          <line>15</line>
-          <option name="temporary" value="true" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/main.js</url>
-          <line>42</line>
-          <option name="temporary" value="true" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/main.js</url>
-          <line>12</line>
-          <option name="temporary" value="true" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/main.js</url>
-          <line>13</line>
-          <option name="temporary" value="true" />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/players.js</url>
-          <line>30</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
